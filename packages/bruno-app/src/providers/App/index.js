@@ -10,7 +10,7 @@ import StyledWrapper from './StyledWrapper';
 export const AppContext = React.createContext();
 
 export const AppProvider = (props) => {
-  useTelemetry();
+  // useTelemetry();
   useIpcEvents();
 
   const dispatch = useDispatch();
